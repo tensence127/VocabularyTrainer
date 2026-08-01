@@ -20,6 +20,11 @@ local.properties
 # Built APKs (distributed via GitHub Releases, not committed).
 *.apk
 
+# Release signing — NEVER commit the keystore or its passwords.
+*.keystore
+*.jks
+keystore.properties
+
 # Kotlin incremental compiler cache
 .kotlin/
 
