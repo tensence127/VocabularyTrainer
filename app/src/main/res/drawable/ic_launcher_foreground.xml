@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Задняя карточка стопки (полупрозрачная, повёрнута). -->
+    <group android:name="back" android:rotation="-14" android:pivotX="54" android:pivotY="54">
+        <path
+            android:fillColor="#80FFFFFF"
+            android:pathData="M41,30 L67,30 A5,5 0 0 1 72,35 L72,73 A5,5 0 0 1 67,78 L41,78 A5,5 0 0 1 36,73 L36,35 A5,5 0 0 1 41,30 Z" />
+    </group>
+
+    <!-- Передняя карточка. -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M41,30 L67,30 A5,5 0 0 1 72,35 L72,73 A5,5 0 0 1 67,78 L41,78 A5,5 0 0 1 36,73 L36,35 A5,5 0 0 1 41,30 Z" />
+
+    <!-- Буква «A» на передней карточке. -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF3A2A6B"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M48,56 L54,40 L60,56 M50.5,50 L57.5,50" />
+
+    <!-- Две строки-«текста» под буквой. -->
+    <path
+        android:fillColor="#FFC9C6E8"
+        android:pathData="M45.5,61 L62.5,61 A1.5,1.5 0 0 1 62.5,64 L45.5,64 A1.5,1.5 0 0 1 45.5,61 Z" />
+    <path
+        android:fillColor="#FFC9C6E8"
+        android:pathData="M45.5,68 L57.5,68 A1.5,1.5 0 0 1 57.5,71 L45.5,71 A1.5,1.5 0 0 1 45.5,68 Z" />
+</vector>

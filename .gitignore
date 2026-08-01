@@ -1,0 +1,30 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Firebase config — keep your own out of the public repo (see README).
+/app/google-services.json
+
+# Built APKs (distributed via GitHub Releases, not committed).
+*.apk
+
+# Kotlin incremental compiler cache
+.kotlin/
+
+# Personal launcher-icon asset backups (not part of the project source)
+/icon_backup_scale068/
+
+# IDE project files
+/.idea/
